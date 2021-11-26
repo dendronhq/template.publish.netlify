@@ -1,10 +1,8 @@
-version: 3
+version: 4
 useFMTitle: true
 useNoteTitleForLink: true
-noLegacyNoteRef: true
 mermaid: true
 useKatex: true
-usePrettyRefs: true
 dev:
     enablePreviewV2: true
 site:
@@ -27,6 +25,7 @@ commands:
             selectionMode: extract
             confirmVaultOnCreate: false
             leaveTrace: false
+            bubbleUpCreateNew: true
     randomNote: {}
     insertNote:
         initialValue: templates
@@ -79,3 +78,10 @@ workspace:
     enableAutoFoldFrontmatter: false
     maxPreviewsCached: 10
     maxNoteLength: 204800
+    dendronVersion: 0.70.0
+preview:
+    enableFMTitle: true
+    enableNoteTitleForLink: true
+    enableMermaid: true
+    enablePrettyRefs: true
+    enableKatex: true
