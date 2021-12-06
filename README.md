@@ -1,5 +1,7 @@
 # Dendron Workspace Template for Netlify Publishing
 
+![Logos for GitHub, Netlify, and Dendron](https://org-dendron-public-assets.s3.amazonaws.com/images/blog-header-dendron-netlify.png)
+
 - [View the Demo Website](https://link.dendron.so/netlify-demo)
 
 This project is a minimal setup template for publishing a Dendron Workspace to Netlify.
