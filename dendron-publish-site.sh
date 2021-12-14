@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 rm -rf .next
 rm -rf docs
 rm -rf node_modules
