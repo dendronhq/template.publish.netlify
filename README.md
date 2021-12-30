@@ -12,6 +12,10 @@ Directions on how to use this template are mentioned in:
 For a more detailed understanding of how Dendron publishing works, and what's going on behind the scenes, reference:
 - [Dendron Docs: Publishing with Netlify](https://wiki.dendron.so/notes/yetuum6o9wZi6eVJQBbQb)
 
+## Other Publishing Paths
+
+- [Dendron Docs: Publishing with GitHub Pages via GitHub Actions](https://wiki.dendron.so/notes/FnK2ws6w1uaS1YzBUY3BR/)
+
 ## Related
 
 * [Dendron Getting Started Guide](https://wiki.dendron.so/notes/678c77d9-ef2c-4537-97b5-64556d6337f1/)
