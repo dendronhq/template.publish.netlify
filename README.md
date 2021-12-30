@@ -26,7 +26,8 @@ For a more detailed understanding of how Dendron publishing works, and what's go
 
 ## Dendron Community
 
-* Join the [Dendron Newsletter](https://link.dendron.so/newsletter)
 * Join [Dendron on Discord](https://link.dendron.so/discord)
 * Follow [Dendron on Twitter](https://link.dendron.so/twitter)
+* Join the [Dendron Newsletter](https://link.dendron.so/newsletter)
+* Register for [Dendron Events on Luma](https://link.dendron.so/luma)
 * Checkout [Dendron on GitHub](https://link.dendron.so/github)
