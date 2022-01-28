@@ -19,7 +19,7 @@ rm -rf docs
 yarn
 
 # Update Dendron Next.js if needed
-(test -d .next) && (echo 'updating dendron next...' && cd .next && git reset --hard && git clean -f && git pull && yarn && cd ..) || (echo 'init dendron next' && yarn dendron publish init)
+(test -d .next) && (echo 'updating dendron next...' && cd .next && git reset --hard && git pull && yarn && cd ..) || (echo 'init dendron next' && yarn dendron publish init)
 
 # Generate static site with nextjs
 yarn dendron publish export
