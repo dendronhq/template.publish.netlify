@@ -29,6 +29,11 @@
   # Installs the Lighthouse Build Plugin for all deploy contexts
   package = "@netlify/plugin-lighthouse"
 
+[[plugins]]
+  # Next.js plugin, to implement caching, etc.
+  # https://github.com/netlify/netlify-plugin-nextjs
+  package = "@netlify/plugin-nextjs"
+
 # Branch Deploy context: all deploys that are not from a pull/merge request or
 # from the Production branch will inherit these settings.
 [context.branch-deploy]
