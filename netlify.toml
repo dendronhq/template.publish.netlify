@@ -23,7 +23,10 @@
   command = "./dendron-publish-site.sh"
 
   # Optional: Designate a specific NODE_VERSION
-  # environment = { NODE_VERSION = "16.13.0" }
+  # environment = { NODE_VERSION = "16.13.2" }
+
+[build.environment]
+NETLIFY_NEXT_PLUGIN_SKIP = "true"
 
 [[plugins]]
   # Installs the Lighthouse Build Plugin for all deploy contexts
