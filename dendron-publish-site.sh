@@ -11,7 +11,7 @@ rm -rf docs
 #rm -rf node_modules
 
 # Install latest version of Dendron
-# yarn install @dendronhq/dendron-cli@latest
+# yarn add @dendronhq/dendron-cli@latest
 # OPTIONALLY
 # Install version of Dendron from yarn.lock in workspace root
 # To use:
