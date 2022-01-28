@@ -18,8 +18,10 @@ rm -rf docs
 # Uncomment the next line, and comment out the other `yarn install ...` line
 yarn
 
+# Update Dendron Next.js if needed
+(test -d .next) && (echo 'updating dendron next...' && cd .next && git reset --hard && git clean -f && git pull && yarn && cd ..) || (echo 'init dendron next' && yarn dendron publish init)
+
 # Generate static site with nextjs
-yarn dendron publish init
 yarn dendron publish export
 
 # Move generated website to docs directory in workspace root
