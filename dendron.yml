@@ -1,24 +1,6 @@
-version: 4
-useFMTitle: true
-useNoteTitleForLink: true
-mermaid: true
-useKatex: true
+version: 5
 dev:
     enablePreviewV2: true
-site:
-    copyAssets: true
-    siteHierarchies:
-        - root
-    siteRootDir: docs
-    usePrettyRefs: true
-    title: Dendron Netlify Template
-    description: Personal knowledge space
-    siteLastModified: true
-    gh_edit_branch: main
-    duplicateNoteBehavior:
-        action: useVault
-        payload:
-            - vault
 commands:
     lookup:
         note:
@@ -26,6 +8,8 @@ commands:
             confirmVaultOnCreate: false
             leaveTrace: false
             bubbleUpCreateNew: true
+            vaultSelectionModeOnCreate: smart
+            fuzzThreshold: 0.2
     randomNote: {}
     insertNote:
         initialValue: templates
@@ -34,6 +18,7 @@ commands:
         enableMultiSelect: false
     insertNoteIndex:
         enableMarker: false
+    copyNoteLink: {}
 workspace:
     vaults:
         -
@@ -78,10 +63,40 @@ workspace:
     enableAutoFoldFrontmatter: false
     maxPreviewsCached: 10
     maxNoteLength: 204800
-    dendronVersion: 0.70.0
+    dendronVersion: 0.83.0
+    enableEditorDecorations: true
 preview:
     enableFMTitle: true
     enableNoteTitleForLink: true
     enableMermaid: true
     enablePrettyRefs: true
     enableKatex: true
+    automaticallyShowPreview: false
+publishing:
+    enableFMTitle: true
+    enableNoteTitleForLink: true
+    enableMermaid: true
+    enablePrettyRefs: true
+    enableKatex: true
+    copyAssets: true
+    siteHierarchies:
+        - root
+    enableSiteLastModified: true
+    siteRootDir: docs
+    enableFrontmatterTags: true
+    enableHashesForFMTags: false
+    enableRandomlyColoredTags: true
+    duplicateNoteBehavior:
+        action: useVault
+        payload:
+            - vault
+    writeStubs: false
+    seo:
+        title: Dendron Netlify Template
+        description: Personal knowledge space
+    github:
+        enableEditLink: true
+        editLinkText: Edit this page on GitHub
+        editBranch: main
+        editViewMode: tree
+    enablePrettyLinks: true
