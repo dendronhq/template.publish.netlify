@@ -2,9 +2,20 @@
 
 ![Logos for GitHub, Netlify, and Dendron](https://org-dendron-public-assets.s3.amazonaws.com/images/blog-header-dendron-netlify.png)
 
+This project is a minimal setup template for publishing a Dendron Workspace to Netlify.
 - [View the Demo Website](https://link.dendron.so/netlify-demo)
 
-This project is a minimal setup template for publishing a Dendron Workspace to Netlify.
+## How to start
+
+Click the green "Deploy to netlify" button below. 
+- This will open Netlify, which in turn will create a copy of this repository in your GitHub accont
+- Give it a fitting name like 'dendron-digital-garden'
+- Follow the steps in Netlify to finish the publishing process
+- Then your site will be available to public.
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/dendronhq/template.publish.netlify)
+
+## Behind the scenes
 
 Directions on how to use this template are mentioned in:
 - [Share Your Notes Online: Publish Dendron with Netlify and GitHub](https://blog.dendron.so/notes/7h7zZkjF4Yqz8XSrHS1je)
